@@ -1,0 +1,19 @@
+.fcontainer{
+    width: 95%;
+    height: 600px;
+    background-color: grey;
+    /* display turns on */
+    /* align items for up to down */
+    /* justify content for left to right */
+    /* flex wrap adds responisveness or prevents overlapping in mobile screen */
+    /* align-content: center; */
+    display: flex;
+    align-items: center;                           
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fitem{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+}
